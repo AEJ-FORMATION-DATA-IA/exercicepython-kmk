@@ -1,0 +1,18 @@
+A = input("entrez un nombre entier: ")
+try:
+    A = int(A)
+except:
+    A=input("\n Erreur !!! Veuillez entrer un nombre entier: ")
+    A=int(A)
+B=input("entrez un deuxieme nombre entier: ")
+try:
+    B = int(B)
+except:
+    B = input("\n Erreur !!!, Votre nombre doit etre un nombre entier: ")
+    B = int(B)
+if(A>B):
+    print(A," est superieur à ", B)
+elif(A<B):
+    print(A," est inferieur à ", B)
+else:
+    print(A," egale à ",B)
